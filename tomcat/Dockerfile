@@ -1,5 +1,7 @@
 FROM tomcat:9.0
 
+LABEL maintainer="stranm@microstraninc.com"
+
 COPY server.xml /usr/local/tomcat/conf/
 
 # add context to /usr/local/tomcat/webapps

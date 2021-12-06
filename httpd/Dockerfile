@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
-ENV TZ="Asia/Kolkata"
+LABEL maintainer="stranm@microstraninc.com"
+
 ENV DEBIAN_FRONTEND="noninteractive"
 
 RUN apt-get update && apt-get install -y --no-install-recommends apache2 libapache2-mod-jk
