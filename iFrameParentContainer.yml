@@ -3,7 +3,7 @@
     
     iframetest2:
       container_name: iframeparent
-      image: stranmmjs/microstranrepository:iframeparent
+      image: stranmmjs/iframetestrepository:iframeparent
       hostname: iframeparenttarget
       ports:
         - "8080:8080"
